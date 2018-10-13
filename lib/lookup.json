@@ -140,7 +140,7 @@
     "expectFail": "fips",
     "maintainers": ["stefanpenner", "rwjblue", "Turbo87", "kellyselden"]
   },
-   "end-of-stream": {
+  "end-of-stream": {
     "prefix": "v",
     "maintainers": "mafintosh",
     "skip": "win32"
@@ -362,7 +362,7 @@
     "prefix": "v",
     "maintainers": "mafintosh",
     "skip": "win32"
-  },  
+  },
   "pumpify": {
     "prefix": "v",
     "maintainers": "mafintosh",
@@ -520,6 +520,12 @@
   },
   "undici": {
     "maintainers": ["mcollina", "ronag"]
+  },
+  "utp-native": {
+    "maintainers": ["mafintosh"],
+    "prefix": "v",
+    "install": ["install", "--ignore-scripts"],
+    "scripts": ["fetch-libutp", "install", "test"]
   },
   "uuid": {
     "prefix": "v",
